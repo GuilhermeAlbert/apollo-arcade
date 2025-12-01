@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+body {
+  background-color: #212529;
+  color: #f8f9fa;
+  font-family: "Press Start 2P", cursive;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-title {
+  color: #fff;
+  text-shadow: 4px 4px #000;
+  margin-bottom: 50px;
+  font-size: 3rem;
+}
+
+.game-card {
+  background: #000;
+  border: 4px solid;
+  padding: 20px;
+  margin: 15px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  text-decoration: none !important;
+  display: block;
+  height: 100%;
+}
+
+.game-card:hover {
+  transform: translateY(-5px);
+}
+
+.game-card h3 {
+  margin-top: 15px;
+  font-size: 1.2rem;
+}
+
+.game-card i {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+/* Basilisk - Snake (Green) */
+.card-basilisk {
+  border-color: #84c27a;
+  color: #84c27a;
+  box-shadow: 0 0 10px rgba(132, 194, 122, 0.3);
+}
+.card-basilisk:hover {
+  box-shadow: 0 0 20px rgba(132, 194, 122, 0.8);
+  color: #84c27a;
+}
+
+/* Andromeda - Gravity (Orange/Red originally, but let's use Purple/Pink to match the game update) */
+/* Wait, in the update I used Green for player and Pink for obstacles. Let's use Pink/Purple for the card to distinguish */
+.card-andromeda {
+  border-color: #f0f;
+  color: #f0f;
+  box-shadow: 0 0 10px rgba(255, 0, 255, 0.3);
+}
+.card-andromeda:hover {
+  box-shadow: 0 0 20px rgba(255, 0, 255, 0.8);
+  color: #f0f;
+}
+
+/* Amazon - Pong (Cyan) */
+.card-amazon {
+  border-color: #00ffff;
+  color: #00ffff;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+}
+.card-amazon:hover {
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.8);
+  color: #00ffff;
+}
+
+/* Hoyama - Pong (Cyan) - Renamed from Amazon? Keeping style similar */
+.card-hoyama {
+  border-color: #00ffff;
+  color: #00ffff;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+}
+.card-hoyama:hover {
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.8);
+  color: #00ffff;
+}
+
+/* Totti - Free Kicks (Gold/Yellow) */
+.card-totti {
+  border-color: #ffcc00;
+  color: #ffcc00;
+  box-shadow: 0 0 10px rgba(255, 204, 0, 0.3);
+}
+.card-totti:hover {
+  box-shadow: 0 0 20px rgba(255, 204, 0, 0.8);
+  color: #ffcc00;
+}
+
+footer {
+  margin-top: 50px;
+  font-size: 0.7rem;
+  color: #666;
+}
